@@ -1,0 +1,168 @@
+#root ::-webkit-scrollbar {
+  width: 8px;
+}
+
+#root ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .08);
+  border-radius: 4px;
+}
+
+#root ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (min-width: 1281px) {
+
+  .block-filter {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .tab__none {
+    display: none;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .block-filter {
+    display: none;
+  }
+
+  .tab__none {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .m-none {
+    display: none;
+  }
+
+  .media__show {
+    display: none;
+  }
+
+  .bar__wrap {
+    display: none;
+  }
+}
+
+@media all and (device-width: 768px) {
+  .tab__none {
+    display: none;
+  }
+}
+
+@media all and (device-width: 1024px) {
+  .tab__none {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .a-col-4{
+    margin-left: 10px;
+  }
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+  .a-col-4{
+    margin-left: 10px;
+  }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+  .a-col-4{
+    margin-left: 10px;
+  }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+ 
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .col_TL {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .row_TL {
+    display: flex !important;
+    flex-wrap: wrap !Important;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .ftr_col_4 {
+    width: 100% !Important;
+  }
+
+
+  .col12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+
+
+}

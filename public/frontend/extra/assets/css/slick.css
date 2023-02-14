@@ -1,0 +1,53 @@
+.slick-arrow{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: all .5s ease;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.slick-arrow:hover {
+    background: black;
+    color: white;
+    border-color: black;
+}
+.slick-arrow:hover i{
+    color: white!important;
+}
+
+.arrow-wrap {
+    transition: transform .5s;
+    position: relative;
+    
+}
+
+.prev {
+    color: #999;
+    position: absolute!important;
+    top: -200px;
+    left: 0;
+    font-size: 1.5em;
+}
+
+.prev:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.next {
+    color: #999;
+    position: absolute!important;
+    top: -200px;
+    right: 0;
+    font-size: 1.5em;
+}
+
+.next:hover {
+    cursor: pointer;
+    color: black;
+}
